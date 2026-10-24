@@ -1,0 +1,15 @@
+# SIIBS Frontend (React + Vite SPA) Code Ownership (RNF-01, RNF-07, 11-tech-spec.md §3.1)
+# Default owners for the frontend repository
+* @brunoabreuco @DMBMz @gpombotky
+
+# Bounded Context Feature Modules
+/src/features/auth/ @brunoabreuco @DMBMz @gpombotky
+/src/features/registry/ @brunoabreuco @DMBMz @gpombotky
+/src/features/assistance/ @brunoabreuco @DMBMz @gpombotky
+/src/features/audit/ @brunoabreuco @DMBMz @gpombotky
+
+# Shared UI Components, API Client, Routing & Governance
+/src/components/ @brunoabreuco @DMBMz @gpombotky
+/src/lib/ @brunoabreuco @DMBMz @gpombotky
+/src/routes/ @brunoabreuco @DMBMz @gpombotky
+/.github/ @brunoabreuco @DMBMz @gpombotky
