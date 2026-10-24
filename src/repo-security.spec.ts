@@ -17,11 +17,7 @@ describe('Frontend Repository Security & Governance Policy (RNF-01, RNF-07)', ()
   });
 
   it('configures .github/dependabot.yml for npm and github-actions', () => {
-    const dependabotPath = path.join(
-      FRONTEND_ROOT,
-      '.github',
-      'dependabot.yml',
-    );
+    const dependabotPath = path.join(FRONTEND_ROOT, '.github', 'dependabot.yml');
     expect(fs.existsSync(dependabotPath)).toBe(true);
 
     const content = fs.readFileSync(dependabotPath, 'utf-8');
