@@ -50,9 +50,16 @@ export function LoginScreen({
     >
       <div className="flex flex-col justify-between border-b border-stone-200 bg-stone-100/80 p-8 lg:col-span-5 lg:border-r lg:border-b-0">
         <div>
-          <div className="inline-flex items-center gap-2 rounded-md border border-stone-300 bg-white px-3 py-1 text-xs font-medium tracking-wide text-stone-700 uppercase">
-            <ShieldCheck className="h-3.5 w-3.5 text-teal-800" aria-hidden="true" />
-            Acesso Individual Auditado
+          <div className="flex items-center gap-3">
+            <img
+              src="/siibs-logo.png"
+              alt="Emblema Instituto Brantz Social"
+              className="h-12 w-12 shrink-0 rounded-lg border border-stone-200 bg-white p-1.5 object-contain shadow-xs"
+            />
+            <div className="inline-flex items-center gap-1.5 rounded-md border border-stone-300 bg-white px-2.5 py-1 text-xs font-medium tracking-wide text-stone-700 uppercase">
+              <ShieldCheck className="h-3.5 w-3.5 text-[#004A8F]" aria-hidden="true" />
+              Acesso Individual Auditado
+            </div>
           </div>
           <h2 className="mt-5 text-xl font-semibold tracking-tight text-slate-900">
             Núcleo de Identidade e Acesso
@@ -153,7 +160,7 @@ export function LoginScreen({
               <Button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-teal-900 text-white hover:bg-teal-800"
+                className="w-full bg-[#004A8F] text-white hover:bg-[#003B73]"
               >
                 {isSubmitting ? 'Autenticando...' : 'Entrar no SIIBS'}
               </Button>

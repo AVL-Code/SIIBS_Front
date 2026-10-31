@@ -33,19 +33,28 @@ export function AppRoutes(): ReactElement {
   return (
     <div className="min-h-screen bg-stone-50 text-slate-900">
       <header className="border-b border-stone-200 bg-white">
-        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 py-5">
-          <div>
-            <h1 className="text-2xl font-semibold tracking-tight text-slate-900">
-              SIIBS — Assistência Social
-            </h1>
-            <p className="mt-1 text-sm text-slate-600">Sistema Integrado Instituto Brantz Social</p>
+        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 py-4">
+          <div className="flex items-center gap-3.5">
+            <img
+              src="/siibs-logo.png"
+              alt="Logo Instituto Brantz Social"
+              className="h-12 w-12 shrink-0 object-contain"
+            />
+            <div>
+              <h1 className="text-2xl font-semibold tracking-tight text-slate-900">
+                SIIBS — Assistência Social
+              </h1>
+              <p className="mt-0.5 text-sm text-slate-600">
+                Sistema Integrado Instituto Brantz Social
+              </p>
+            </div>
           </div>
 
           {currentUser ? (
             <div className="flex items-center gap-4">
               <div className="text-right">
                 <p className="flex items-center justify-end gap-1.5 text-sm font-medium text-slate-900">
-                  <UserCheck className="h-4 w-4 text-teal-800" aria-hidden="true" />
+                  <UserCheck className="h-4 w-4 text-[#004A8F]" aria-hidden="true" />
                   {currentUser.fullName}
                 </p>
                 <p className="text-xs text-slate-600">
