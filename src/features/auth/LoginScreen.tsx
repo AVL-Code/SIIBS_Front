@@ -58,9 +58,8 @@ export function LoginScreen({
             Núcleo de Identidade e Acesso
           </h2>
           <p className="mt-2 text-sm leading-relaxed text-slate-600">
-            Utilize sua conta individual do Instituto Bom Samaritano. Todas as consultas e
-            alterações cadastrais respeitam o perfil atribuído e são registradas na trilha de
-            auditoria.
+            Utilize sua conta individual do Instituto Brantz Social. Todas as consultas e alterações
+            cadastrais respeitam o perfil atribuído e são registradas na trilha de auditoria.
           </p>
         </div>
 
